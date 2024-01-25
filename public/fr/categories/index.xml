@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Clément Orlandini</title>
+        <link>https://clemorl.fr/fr/categories/</link>
+        <description>Recent content in Categories on Clément Orlandini</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-FR</language>
+        <lastBuildDate>Thu, 25 Jan 2024 01:36:21 +0100</lastBuildDate><atom:link href="https://clemorl.fr/fr/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Portfolio</title>
+        <link>https://clemorl.fr/fr/categories/portfolio/</link>
+        <pubDate>Thu, 25 Jan 2024 01:36:21 +0100</pubDate>
+        
+        <guid>https://clemorl.fr/fr/categories/portfolio/</guid>
+        <description>&lt;h1 id=&#34;bonjour--moi-cest-clément&#34;&gt;Bonjour ! Moi c&amp;rsquo;est Clément&lt;/h1&gt;
+&lt;p&gt;Je suis game designer, scénariste et développeur. N&amp;rsquo;hésitez pas à parcourir mon travail ; je met presque tout mes projets sur ce site. Vous êtes sur mon portfolio professionnel, ça peut vous intéresser si vous êtes recruteur.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Projets</title>
+        <link>https://clemorl.fr/fr/categories/projets/</link>
+        <pubDate>Wed, 24 Jan 2024 19:43:55 +0100</pubDate>
+        
+        <guid>https://clemorl.fr/fr/categories/projets/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

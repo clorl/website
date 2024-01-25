@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Projets on Clément Orlandini</title>
+        <link>https://clemorl.fr/fr/categories/projets/</link>
+        <description>Recent content in Projets on Clément Orlandini</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-FR</language>
+        <lastBuildDate>Wed, 24 Jan 2024 19:43:55 +0100</lastBuildDate><atom:link href="https://clemorl.fr/fr/categories/projets/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Divunity</title>
+        <link>https://clemorl.fr/fr/post/divunity/</link>
+        <pubDate>Wed, 24 Jan 2024 19:43:55 +0100</pubDate>
+        
+        <guid>https://clemorl.fr/fr/post/divunity/</guid>
+        <description>&lt;img src="https://clemorl.fr/fr/post/divunity/thumbnail.png" alt="Featured image of post Divunity" /&gt;&lt;p&gt;Divunity est une expérience unique, et honnêtement, l&amp;rsquo;un des projets dont je suis le plus fier.
+C&amp;rsquo;est un &amp;ldquo;god game&amp;rdquo; en VR dans lequel deux joueurs doivent coopérer pour faire cohabiter leurs peuples ensemble malgré la haine qu&amp;rsquo;ils éprouvent l&amp;rsquo;un pour l&amp;rsquo;autre.
+L&amp;rsquo;accent est mis à la fois sur l&amp;rsquo;aspect communication/stratégie et sur le plaisir de jouer avec un jouet VR.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sorenu.itch.io/divunity&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Consultez la page Itch.io du jeu&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;résumé&#34;&gt;Résumé&lt;/h1&gt;
+&lt;p&gt;Cette vidéo présente les mécaniques du jeu, et montre un playthrough.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/Hjs4c1iv5Ik&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;du-concept-à-la-livraison&#34;&gt;Du concept à la livraison&lt;/h1&gt;
+&lt;p&gt;J&amp;rsquo;ai eu la chance de présenter cette idée devant mes collègues de promo, et qu&amp;rsquo;elle soit sélectionnée parmi les 12 projets que nous allions créer.&lt;/p&gt;
+&lt;p&gt;Tout a commencé par une vision claire que quelques collègues et moi-même avons eue en 2019. De là est né un concept de jeu brut que j&amp;rsquo;ai réalisé pour présenter les concepts clés. À partir de là, une équipe de quatre personnes et moi-même avons développé une démo en l&amp;rsquo;espace de trois mois, qui comprend du réseau et de la physique.&lt;/p&gt;
+&lt;p&gt;Nous avons ensuite présenté ce jeu au public, et ce grand nombre de nouveaux joueurs a mis en lumière certaines lacunes du design et d&amp;rsquo;autres problèmes d&amp;rsquo;expérience utilisateur. La VR n&amp;rsquo;est pas une mince affaire ! Si ce jeu devenait un jeu à part entière, nous aurions beaucoup de contenu et d&amp;rsquo;améliorations à apporter. Nous avons beaucoup appris et nous nous sommes beaucoup amusés.&lt;/p&gt;
+&lt;p&gt;*&lt;em&gt;Mes rôles sur le projet :&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game designer&lt;/li&gt;
+&lt;li&gt;Programmeur gameplay&lt;/li&gt;
+&lt;li&gt;Team leader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;fait-avec-soin-par&#34;&gt;Fait avec soin par&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Credit&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Role&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Pierre Aceituno&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Producer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Solène Pobelle&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Character &amp;amp; environment artist&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Noé Simon&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;UX Designer, User Researcher&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Pamphile Saltel&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Programmeur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;L&amp;rsquo;idée originale a été imaginée et testée par Marie Abrino, Sohel Bourgeau, Hippolyte Follenfant, Morgan Geniez et moi-même.&lt;/p&gt;
+&lt;h1 id=&#34;gallerie&#34;&gt;Gallerie&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://clemorl.fr/fr/post/divunity/01.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/01_hue9aca23f4ef621942a55116a9875c853_3707594_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/01_hue9aca23f4ef621942a55116a9875c853_3707594_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/02.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/02_huc481b1a5885a1d3b906a712f5517d54c_2154928_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/02_huc481b1a5885a1d3b906a712f5517d54c_2154928_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/03.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/03_hu41db279794132475800278ae8243f3c2_1727513_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/03_hu41db279794132475800278ae8243f3c2_1727513_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/04.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/04_hufd463b9157bfeae83b644396f2f4b6dd_2044735_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/04_hufd463b9157bfeae83b644396f2f4b6dd_2044735_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/05.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/05_huddb3f87e0ea1185d32a1d3031a18d0a4_2150517_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/05_huddb3f87e0ea1185d32a1d3031a18d0a4_2150517_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;histoire-dune-feature--le-système-de-demandes&#34;&gt;Histoire d&amp;rsquo;une feature : Le système de demandes&lt;/h1&gt;
+&lt;p&gt;J&amp;rsquo;ai conçu, prototypé et intégré ce système de jeu du début à la fin. Au cours du jeu, votre peuple vous demandera de construire de nouveaux bâtiments.
+C&amp;rsquo;est la fonctionnalité sur laquelle j&amp;rsquo;ai le plus travaillé, car elle comprend des éléments de systems design, de technical design, et de narrative design.&lt;/p&gt;
+&lt;p&gt;Dans la première itération, les demandes étaient rudimentaires, elles indiquaient simplement un type de bâtiment et une action : construire ou détruire. Cela n&amp;rsquo;offrait pas beaucoup de variété, on s&amp;rsquo;ennuyait. De plus, les joueurs ne comprenaient pas vraiment le but du jeu, ni l&amp;rsquo;impact de leurs actions sur leur peuple.&lt;/p&gt;
+&lt;p&gt;Nous avons donc remanié le système pour inclure une phrase complète sur ce que le peuple vous demandait de faire, avec un indice de craft au verso. Cela a permis de renforcer l&amp;rsquo;ambiguïté et la possibilité de choix du joueur. Par exemple, si votre peuple dit &amp;ldquo;Nous avons peur des autres, faites quelque chose&amp;rdquo;, vous avez deux options :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Construire une tour de garde pour qu&amp;rsquo;ils se sentent en sécurité&lt;/li&gt;
+&lt;li&gt;Demander à votre coéquipier de détruire sa tour de garde, afin que votre peuple ne se sente pas menacé.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://clemorl.fr/fr/post/divunity/request-blue.gif&#34;
+	width=&#34;787&#34;
+	height=&#34;558&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/request-blue_hu4cf47346686cab383907e16dd73533c7_3213218_480x0_resize_box_1.gif 480w, https://clemorl.fr/fr/post/divunity/request-blue_hu4cf47346686cab383907e16dd73533c7_3213218_1024x0_resize_box_1.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;338px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Cela a ouvert la porte à des demandes beaucoup plus variées et a rendu les enjeux beaucoup plus clairs pour les joueurs.&lt;/p&gt;
+&lt;p&gt;Les demandes sont générées de manière procédurale en fonction de l&amp;rsquo;état du jeu, comme le score de chaque joueur ou les bâtiments présents. La plupart des bâtiments de fin de partie (lorsque les deux tribus s&amp;rsquo;apprécient davantage) vous obligent à utiliser les ressources de votre partenaire, ce qui renforce la coopération à la fois dans la narration et dans le gameplay.&lt;/p&gt;
+&lt;p&gt;Le jeu se termine par la construction d&amp;rsquo;une &amp;ldquo;Merveille&amp;rdquo;, une statue en deux parties, chaque joueur devant construire sa propre partie.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Exemple de code d&amp;#39;une requête&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Nous avons écrit des helpers pour évaluer l&amp;#39;état du jeu, par exemple &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// IsMilitary : Si le jeu est à l&amp;#39;ère militaire, c&amp;#39;est-à-dire si les deux peuples se détestent.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Request
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    text                = Loc.GetString(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;On déteste l&amp;#39;autre peuple, faites en sorte qu&amp;#39;on ne les voit plus&amp;#34;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Quel bâtiment afficher sur la requête&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    requestedBuilding   = BuildingHelpers.GetBuilding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Wall&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;),                                         
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Prédicat qui détermine quand la demande peut apparaître&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    preCond             = r =&amp;gt; IsMilitary,                                                                      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Prédicat qui détermine si la demande a été satisfaite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    successCond         = r =&amp;gt; BuildingHelpers.GetBuilding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Wall&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;).JustBuilt(),                        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Le système de requêtes pourrait être élargi avec beaucoup plus de requêtes impliquant plus de types d&amp;rsquo;actions, plus de types de bâtiments etc. La forme actuelle des demandes laisse à désirer, car le texte peut être difficile à lire pour certains joueurs. Nous changerions probablement cette forme si nous pouvions continuer à travailler sur le jeu.&lt;/p&gt;
+&lt;h1 id=&#34;documentation&#34;&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;La &lt;a class=&#34;link&#34; href=&#34;docs&#34; &gt;documentation du jeu&lt;/a&gt; (document de conception du jeu) est disponible à la consultation.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

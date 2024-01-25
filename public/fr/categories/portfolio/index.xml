@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Portfolio on Clément Orlandini</title>
+        <link>https://clemorl.fr/fr/categories/portfolio/</link>
+        <description>Recent content in Portfolio on Clément Orlandini</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-FR</language>
+        <lastBuildDate>Thu, 25 Jan 2024 01:36:21 +0100</lastBuildDate><atom:link href="https://clemorl.fr/fr/categories/portfolio/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Century Age of Ashes</title>
+        <link>https://clemorl.fr/fr/post/century/</link>
+        <pubDate>Thu, 25 Jan 2024 01:36:21 +0100</pubDate>
+        
+        <guid>https://clemorl.fr/fr/post/century/</guid>
+        <description>&lt;img src="https://clemorl.fr/fr/post/century/banner.jpg" alt="Featured image of post Century Age of Ashes" /&gt;&lt;p&gt;J&amp;rsquo;ai commencé chez Playwing en mars 2022 en tant que stagiaire, ce qui m&amp;rsquo;a ensuite permis d&amp;rsquo;être employé à temps plein jusqu&amp;rsquo;en janvier 2024. J&amp;rsquo;étais game designer, mais comme nous étions une petite équipe, j&amp;rsquo;ai eu de nombreuses responsabilités tout au long de cette période. Voici quelques features dont j&amp;rsquo;ai eu la responsabilité.&lt;/p&gt;
+&lt;h1 id=&#34;mode-de-jeu-majeur--outbreak&#34;&gt;Mode de jeu majeur : Outbreak&lt;/h1&gt;
+&lt;p&gt;Outbreak a été présenté pour la première fois dans l&amp;rsquo;événement The Last Bastion. C&amp;rsquo;est le premier mode de jeu PvE de Century : Age of Ashes. Vous jouez en coopération dans une équipe de quatre dragonniers qui doivent détruire des hordes de &amp;ldquo;Dwellers from the shadow&amp;rdquo; (habitants de l&amp;rsquo;ombre), avant qu&amp;rsquo;ils ne franchissent la barrière Valkürienne, ce qui pourrait entraîner la chute de toutes les civilisations de Skeld.&lt;/p&gt;
+&lt;p&gt;À chaque tour, vous gagnez de l&amp;rsquo;or que vous pouvez dépenser au début du tour suivant pour acheter des améliorations pour votre dragon. Il peut s&amp;rsquo;agir d&amp;rsquo;attaques plus puissantes, de tirs plus rapides ou de temps de recharge plus courts. Vous rencontrerez de plus en plus d&amp;rsquo;ennemis au fur et à mesure que vous avancerez, ainsi que de nouveaux types d&amp;rsquo;ennemis. Si vous parvenez à contenir les 10 vagues d&amp;rsquo;ennemis, vous remportez la bataille. Le mode de jeu est disponible en quatre niveaux de difficulté.&lt;/p&gt;
+&lt;h2 id=&#34;bande-annonce&#34;&gt;Bande-annonce&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/YwKy0p4glzE&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;gameplay&#34;&gt;Gameplay&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/R9S2YRiaNvU&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;mon-rôle&#34;&gt;Mon rôle&lt;/h2&gt;
+&lt;p&gt;On m&amp;rsquo;a confié la responsabilité de la conception de base qui, après validation, est passée à un prototype sur lequel j&amp;rsquo;ai travaillé pendant plusieurs semaines. Une fois le prototype validé, une équipe de programmeurs est venue peaufiner les fonctionnalités et retravailler ce qui devait l&amp;rsquo;être. J&amp;rsquo;ai eu beaucoup de plaisir à travailler avec des personnes plus expérimentées et à échanger des idées sur les systèmes de jeu. J&amp;rsquo;ai découvert que mes propositions n&amp;rsquo;étaient pas si mauvaises et que j&amp;rsquo;étais capable de communiquer et de gérer une petite équipe. J&amp;rsquo;ai également travaillé en étroite collaboration avec notre artiste UI afin d&amp;rsquo;améliorer l&amp;rsquo;expérience utilisateur.&lt;/p&gt;
+&lt;h1 id=&#34;personnage--le-givresang&#34;&gt;Personnage : Le Givresang&lt;/h1&gt;
+&lt;p&gt;Chaque nouvelle saison de Century s&amp;rsquo;accompagne d&amp;rsquo;un nouveau personnage. Pour celui-ci, nous n&amp;rsquo;avions que quatre mois. J&amp;rsquo;ai été le principal designer de ce personnage et de ses pouvoirs. Le concept était celui d&amp;rsquo;une classe de soutien qui harcèle ; qui soigne les alliés et affaiblit les ennemis, tout comme Zenyatta d&amp;rsquo;Overwatch. J&amp;rsquo;ai travaillé en étroite collaboration avec notre programmeur gameplay ainsi qu&amp;rsquo;avec les artistes pour concevoir les contrôles et la caméra des pouvoirs. C&amp;rsquo;était un travail méticuleux de coordination entre tous les membres de l&amp;rsquo;équipe afin d&amp;rsquo;obtenir le résultat que nous voulions. La première capacité, appelée &amp;ldquo;Charge sauvage&amp;rdquo;, a eu besoin de beaucoup d&amp;rsquo;itération, car c&amp;rsquo;était la première fois dans Century qu&amp;rsquo;il y avait une attaque de mêlée.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/Kz_B519AEFM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;mode-de-jeu-principal--artifact&#34;&gt;Mode de jeu principal : Artifact&lt;/h1&gt;
+&lt;p&gt;J&amp;rsquo;ai été chargé de trouver un nouveau concept de mode de jeu, qui rejoindrait la rotation des modes de jeux principaux. L&amp;rsquo;objectif était d&amp;rsquo;adapter le mode &amp;ldquo;Recherche et destruction&amp;rdquo;, classique de jeux tels que Counter Strike ou Valorant, mais avec le gameplay de Century, ce qui est vraiment délicat. Dans Century, votre dragon se déplace constamment, vous ne pouvez pas vous cacher, vous ne pouvez pas prendre position et vous ne pouvez pas vous arrêter. L&amp;rsquo;adaptation a donc été difficile mais très amusante. Il s&amp;rsquo;agit également du tout premier mode de jeu asymétrique de Century.&lt;/p&gt;
+&lt;p&gt;Une fois le concept du jeu terminé, une autre équipe s&amp;rsquo;est chargée de l&amp;rsquo;implémentation proprement dite, et un collègue designer a pris le relai.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/C-6Qs1Vo2Gk&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;modes-de-jeu-mineurs&#34;&gt;Modes de jeu mineurs&lt;/h1&gt;
+&lt;p&gt;Dans le cadre d&amp;rsquo;une mise à jour liveops, j&amp;rsquo;ai &lt;em&gt;designé&lt;/em&gt; de nombreux concepts de modes de jeu, parmi lesquels deux ont été choisis pour être développés dans le cadre de l&amp;rsquo;événement Colosseum : de petits &lt;em&gt;twists&lt;/em&gt; sur des modes de jeu existants qui renouvelleraient l&amp;rsquo;intérêt des joueurs pour le jeu et fourniraient plus de contenu pour les événements à venir.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Régicide :&lt;/strong&gt; Dans chaque équipe, un joueur est désigné comme le &amp;ldquo;roi&amp;rdquo;. L&amp;rsquo;équipe gagne des points en tuant le roi. Si un roi est tué, un autre joueur de l&amp;rsquo;équipe devient roi. Si le roi survit assez longtemps, il fait gagner des points à son équipe et passe le rôle de roi à quelqu&amp;rsquo;un d&amp;rsquo;autre.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Saccage :&lt;/strong&gt; Une variante du mode de jeu classique Pillage de Century. Vous tuez des dragons porteurs d&amp;rsquo;or et devez ramener l&amp;rsquo;or dans le coffre de votre équipe. Mais cette fois, l&amp;rsquo;or est limité et les joueurs ont la possibilité de voler dans le coffre de l&amp;rsquo;ennemi.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/Q2gnld5Qlw4&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;nouveaux-pouvoirs&#34;&gt;Nouveaux pouvoirs&lt;/h1&gt;
+&lt;p&gt;Dans le cadre d&amp;rsquo;une mise à jour de contenu, j&amp;rsquo;ai travaillé sur quatre nouvelles capacités pour les quatre personnages du jeu (à l&amp;rsquo;époque). C&amp;rsquo;était la première fois que les personnages pouvaient choisir entre plus de deux capacités dans Century. Ces capacités étaient destinées à être vendues avec de la &lt;em&gt;soft currency&lt;/em&gt;, ce qui permettrait aux joueurs d&amp;rsquo;avoir une forme de progression. L&amp;rsquo;équilibrage a été particulièrement difficile, car les capacités ne devaient pas donner un avantage injuste aux joueurs.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Divunity</title>
+        <link>https://clemorl.fr/fr/post/divunity/</link>
+        <pubDate>Wed, 24 Jan 2024 19:43:55 +0100</pubDate>
+        
+        <guid>https://clemorl.fr/fr/post/divunity/</guid>
+        <description>&lt;img src="https://clemorl.fr/fr/post/divunity/thumbnail.png" alt="Featured image of post Divunity" /&gt;&lt;p&gt;Divunity est une expérience unique, et honnêtement, l&amp;rsquo;un des projets dont je suis le plus fier.
+C&amp;rsquo;est un &amp;ldquo;god game&amp;rdquo; en VR dans lequel deux joueurs doivent coopérer pour faire cohabiter leurs peuples ensemble malgré la haine qu&amp;rsquo;ils éprouvent l&amp;rsquo;un pour l&amp;rsquo;autre.
+L&amp;rsquo;accent est mis à la fois sur l&amp;rsquo;aspect communication/stratégie et sur le plaisir de jouer avec un jouet VR.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sorenu.itch.io/divunity&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Consultez la page Itch.io du jeu&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;résumé&#34;&gt;Résumé&lt;/h1&gt;
+&lt;p&gt;Cette vidéo présente les mécaniques du jeu, et montre un playthrough.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/Hjs4c1iv5Ik&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;du-concept-à-la-livraison&#34;&gt;Du concept à la livraison&lt;/h1&gt;
+&lt;p&gt;J&amp;rsquo;ai eu la chance de présenter cette idée devant mes collègues de promo, et qu&amp;rsquo;elle soit sélectionnée parmi les 12 projets que nous allions créer.&lt;/p&gt;
+&lt;p&gt;Tout a commencé par une vision claire que quelques collègues et moi-même avons eue en 2019. De là est né un concept de jeu brut que j&amp;rsquo;ai réalisé pour présenter les concepts clés. À partir de là, une équipe de quatre personnes et moi-même avons développé une démo en l&amp;rsquo;espace de trois mois, qui comprend du réseau et de la physique.&lt;/p&gt;
+&lt;p&gt;Nous avons ensuite présenté ce jeu au public, et ce grand nombre de nouveaux joueurs a mis en lumière certaines lacunes du design et d&amp;rsquo;autres problèmes d&amp;rsquo;expérience utilisateur. La VR n&amp;rsquo;est pas une mince affaire ! Si ce jeu devenait un jeu à part entière, nous aurions beaucoup de contenu et d&amp;rsquo;améliorations à apporter. Nous avons beaucoup appris et nous nous sommes beaucoup amusés.&lt;/p&gt;
+&lt;p&gt;*&lt;em&gt;Mes rôles sur le projet :&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game designer&lt;/li&gt;
+&lt;li&gt;Programmeur gameplay&lt;/li&gt;
+&lt;li&gt;Team leader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;fait-avec-soin-par&#34;&gt;Fait avec soin par&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Credit&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Role&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Pierre Aceituno&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Producer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Solène Pobelle&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Character &amp;amp; environment artist&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Noé Simon&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;UX Designer, User Researcher&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Pamphile Saltel&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Programmeur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;L&amp;rsquo;idée originale a été imaginée et testée par Marie Abrino, Sohel Bourgeau, Hippolyte Follenfant, Morgan Geniez et moi-même.&lt;/p&gt;
+&lt;h1 id=&#34;gallerie&#34;&gt;Gallerie&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://clemorl.fr/fr/post/divunity/01.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/01_hue9aca23f4ef621942a55116a9875c853_3707594_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/01_hue9aca23f4ef621942a55116a9875c853_3707594_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/02.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/02_huc481b1a5885a1d3b906a712f5517d54c_2154928_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/02_huc481b1a5885a1d3b906a712f5517d54c_2154928_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/03.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/03_hu41db279794132475800278ae8243f3c2_1727513_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/03_hu41db279794132475800278ae8243f3c2_1727513_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/04.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/04_hufd463b9157bfeae83b644396f2f4b6dd_2044735_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/04_hufd463b9157bfeae83b644396f2f4b6dd_2044735_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://clemorl.fr/fr/post/divunity/05.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/05_huddb3f87e0ea1185d32a1d3031a18d0a4_2150517_480x0_resize_box_3.png 480w, https://clemorl.fr/fr/post/divunity/05_huddb3f87e0ea1185d32a1d3031a18d0a4_2150517_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;histoire-dune-feature--le-système-de-demandes&#34;&gt;Histoire d&amp;rsquo;une feature : Le système de demandes&lt;/h1&gt;
+&lt;p&gt;J&amp;rsquo;ai conçu, prototypé et intégré ce système de jeu du début à la fin. Au cours du jeu, votre peuple vous demandera de construire de nouveaux bâtiments.
+C&amp;rsquo;est la fonctionnalité sur laquelle j&amp;rsquo;ai le plus travaillé, car elle comprend des éléments de systems design, de technical design, et de narrative design.&lt;/p&gt;
+&lt;p&gt;Dans la première itération, les demandes étaient rudimentaires, elles indiquaient simplement un type de bâtiment et une action : construire ou détruire. Cela n&amp;rsquo;offrait pas beaucoup de variété, on s&amp;rsquo;ennuyait. De plus, les joueurs ne comprenaient pas vraiment le but du jeu, ni l&amp;rsquo;impact de leurs actions sur leur peuple.&lt;/p&gt;
+&lt;p&gt;Nous avons donc remanié le système pour inclure une phrase complète sur ce que le peuple vous demandait de faire, avec un indice de craft au verso. Cela a permis de renforcer l&amp;rsquo;ambiguïté et la possibilité de choix du joueur. Par exemple, si votre peuple dit &amp;ldquo;Nous avons peur des autres, faites quelque chose&amp;rdquo;, vous avez deux options :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Construire une tour de garde pour qu&amp;rsquo;ils se sentent en sécurité&lt;/li&gt;
+&lt;li&gt;Demander à votre coéquipier de détruire sa tour de garde, afin que votre peuple ne se sente pas menacé.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://clemorl.fr/fr/post/divunity/request-blue.gif&#34;
+	width=&#34;787&#34;
+	height=&#34;558&#34;
+	srcset=&#34;https://clemorl.fr/fr/post/divunity/request-blue_hu4cf47346686cab383907e16dd73533c7_3213218_480x0_resize_box_1.gif 480w, https://clemorl.fr/fr/post/divunity/request-blue_hu4cf47346686cab383907e16dd73533c7_3213218_1024x0_resize_box_1.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;338px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Cela a ouvert la porte à des demandes beaucoup plus variées et a rendu les enjeux beaucoup plus clairs pour les joueurs.&lt;/p&gt;
+&lt;p&gt;Les demandes sont générées de manière procédurale en fonction de l&amp;rsquo;état du jeu, comme le score de chaque joueur ou les bâtiments présents. La plupart des bâtiments de fin de partie (lorsque les deux tribus s&amp;rsquo;apprécient davantage) vous obligent à utiliser les ressources de votre partenaire, ce qui renforce la coopération à la fois dans la narration et dans le gameplay.&lt;/p&gt;
+&lt;p&gt;Le jeu se termine par la construction d&amp;rsquo;une &amp;ldquo;Merveille&amp;rdquo;, une statue en deux parties, chaque joueur devant construire sa propre partie.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Exemple de code d&amp;#39;une requête&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Nous avons écrit des helpers pour évaluer l&amp;#39;état du jeu, par exemple &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// IsMilitary : Si le jeu est à l&amp;#39;ère militaire, c&amp;#39;est-à-dire si les deux peuples se détestent.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Request
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    text                = Loc.GetString(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;On déteste l&amp;#39;autre peuple, faites en sorte qu&amp;#39;on ne les voit plus&amp;#34;&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Quel bâtiment afficher sur la requête&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    requestedBuilding   = BuildingHelpers.GetBuilding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Wall&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;),                                         
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Prédicat qui détermine quand la demande peut apparaître&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    preCond             = r =&amp;gt; IsMilitary,                                                                      
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Prédicat qui détermine si la demande a été satisfaite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    successCond         = r =&amp;gt; BuildingHelpers.GetBuilding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Wall&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;).JustBuilt(),                        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Le système de requêtes pourrait être élargi avec beaucoup plus de requêtes impliquant plus de types d&amp;rsquo;actions, plus de types de bâtiments etc. La forme actuelle des demandes laisse à désirer, car le texte peut être difficile à lire pour certains joueurs. Nous changerions probablement cette forme si nous pouvions continuer à travailler sur le jeu.&lt;/p&gt;
+&lt;h1 id=&#34;documentation&#34;&gt;Documentation&lt;/h1&gt;
+&lt;p&gt;La &lt;a class=&#34;link&#34; href=&#34;docs&#34; &gt;documentation du jeu&lt;/a&gt; (document de conception du jeu) est disponible à la consultation.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

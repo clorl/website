@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Divunity : Game Design Document</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Divunity</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Accueil_33018.html">Accueil</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Divunity : Game Design Document
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Clément Topy</span>, last modified on avr. 14, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <div class="contentLayout2">
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p /><style type='text/css'>/*<![CDATA[*/
+div.rbtoc1632257665827 {padding: 0px;}
+div.rbtoc1632257665827 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1632257665827 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style><div class='toc-macro rbtoc1632257665827'>
+<ul class='toc-indentation'>
+<li><a href='#GameDesignDocument-Les3C'>Les 3C</a>
+<ul class='toc-indentation'>
+<li><a href='#GameDesignDocument-Character'>Character</a></li>
+<li><a href='#GameDesignDocument-Camera'>Camera</a></li>
+<li><a href='#GameDesignDocument-Controllertbd'>Controller TBD</a></li>
+</ul>
+</li>
+<li><a href='#GameDesignDocument-Bouclesdegameplay'>Boucles de gameplay</a>
+<ul class='toc-indentation'>
+<li><a href='#GameDesignDocument-Coreloop'>Core loop</a></li>
+<li><a href='#GameDesignDocument-Moyenne'>Moyenne</a></li>
+<li><a href='#GameDesignDocument-Macro'>Macro</a></li>
+</ul>
+</li>
+<li><a href='#GameDesignDocument-Briques'>Briques</a>
+<ul class='toc-indentation'>
+<li><a href='#GameDesignDocument-Outils'>Outils</a></li>
+<li><a href='#GameDesignDocument-Évènements'>Évènements</a></li>
+<li><a href='#GameDesignDocument-Ressources'>Ressources</a></li>
+<li><a href='#GameDesignDocument-Niveaudecohabitationetzoned’influence'>Niveau de cohabitation et zone d’influence</a></li>
+<li><a href='#GameDesignDocument-Bâtiments'>Bâtiments</a></li>
+</ul>
+</li>
+<li><a href='#GameDesignDocument-RationalGameDesign'>Rational Game Design</a>
+<ul class='toc-indentation'>
+<li><a href='#GameDesignDocument-Mécaniques&amp;challenges'>Mécaniques &amp; challenges</a></li>
+<li><a href='#GameDesignDocument-Paramètresatomiques'>Paramètres atomiques</a></li>
+</ul>
+</li>
+</ul>
+</div><h1 id="GameDesignDocument-Les3C">Les 3C</h1><h2 id="GameDesignDocument-Character"><img class="emoticon emoticon-laugh" data-emoji-id="1f600" data-emoji-shortname=":grinning:" data-emoji-fallback="😀" src="images/icons/emoticons/biggrin.png" width="16" height="16" data-emoticon-name="laugh" alt="(grand sourire)"/> Character</h2><p>Le joueur est un dieu participant à la <strong>God Cup. </strong>Il a la possibilité d’utiliser des outils cosmiques pour intéragir avec son environnement (voir Outils)</p><h2 id="GameDesignDocument-Camera"><img class="emoticon emoticon-blue-star" data-emoji-id="1f3a5" data-emoji-shortname=":movie_camera:" data-emoji-fallback="🎥" src="images/icons/emoticons/72/1f3a5.png" width="16" height="16" data-emoticon-name="blue-star" alt="(étoile bleue)"/> Camera</h2><p>Vue subjective en réalité virtuelle. Le joueur est debout face à une “table” sur laquelle se trouve son monde.</p><h2 id="GameDesignDocument-Controllertbd"><img class="emoticon emoticon-blue-star" data-emoji-id="1f3ae" data-emoji-shortname=":video_game:" data-emoji-fallback="🎮" src="images/icons/emoticons/72/1f3ae.png" width="16" height="16" data-emoticon-name="blue-star" alt="(étoile bleue)"/> Controller <span class="status-macro aui-lozenge">TBD</span> </h2><p>Controller de l’HTC Vive et de l’Oculus</p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-center" width="544" loading="lazy" src="attachments/98342/33193.jpg?width=544" data-image-src="attachments/98342/33193.jpg" data-height="2304" data-width="3490" data-unresolved-comment-count="0" data-linked-resource-id="33193" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="IMG_20210317_130540.jpg" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="98342" data-linked-resource-container-version="13" data-media-id="d7c26be9-24b3-4b37-b8d3-53d763a7fd2d" data-media-type="file"></span><p style="text-align: center;"><em>Mockup de l’espace de jeu</em></p><p /><h1 id="GameDesignDocument-Bouclesdegameplay">Boucles de gameplay</h1><h2 id="GameDesignDocument-Coreloop">Core loop</h2><span class="confluence-embedded-file-wrapper image-left-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-left" width="204" loading="lazy" src="attachments/98342/9994483.png?width=204" data-image-src="attachments/98342/9994483.png" data-height="484" data-width="626" data-unresolved-comment-count="0" data-linked-resource-id="9994483" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210323-100644.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="98342" data-linked-resource-container-version="13" data-media-id="11739d24-af49-47fb-b6eb-472249ade14b" data-media-type="file"></span><p /><h2 id="GameDesignDocument-Moyenne">Moyenne</h2><p>Demande du peuple &gt; Construire &gt; S'étendre</p><h2 id="GameDesignDocument-Macro">Macro</h2><p>S'étendre &gt; Aider l’autre à s'étendre &gt; Construire la merveille</p><h1 id="GameDesignDocument-Briques">Briques</h1><h2 id="GameDesignDocument-Outils">Outils</h2><span class="confluence-embedded-file-wrapper image-right-wrap-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-wrap-right" width="272" loading="lazy" src="attachments/98342/262355.jpg?width=272" data-image-src="attachments/98342/262355.jpg" data-height="2304" data-width="2390" data-unresolved-comment-count="0" data-linked-resource-id="262355" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="IMG_20210317_130511.jpg" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="98342" data-linked-resource-container-version="13" data-media-id="225e47e3-8179-4cd7-a251-7534e02d8167" data-media-type="file"></span><p>Pour interagir avec le monde, le joueur a un <strong>multitool</strong> qui prend la place du controller (HTC/Oculus). Ce multitool peut avoir plusieurs <strong>embouts </strong>qui ont chacun une utilité.</p><p /><p>L’embout <strong>marteau </strong>sert à détruire les bâtiments, l’embout <strong>pince </strong>sert à attraper les ressources ou les bâtiments, l’embout <strong>tapette </strong>sert à repousser les météorites etc.</p><p>Le joueur peut changer d’outil en plaçant l’embout dans un <strong>rack </strong>au mur, ou dans sa <strong>ceinture</strong>.</p><h2 id="GameDesignDocument-Évènements">Évènements</h2><p>Au cours du jeu, des évènements viendront perturber la partie, il peut s’agir de batailles entre les peuples ou de catastrophes naturelles (volcan, tsunami, météorites).</p><p>Les deux joueurs doivent se coordonner pour stopper ces évènements (boucher le volcan, bloquer le tsunami, séparer les batailles).</p><h2 id="GameDesignDocument-Ressources">Ressources</h2><p>Il y a 2 ressources dans le jeu : le bois (arbres) <img class="emoticon emoticon-blue-star" data-emoji-id="1f333" data-emoji-shortname=":deciduous_tree:" data-emoji-fallback="🌳" src="images/icons/emoticons/72/1f333.png" width="16" height="16" data-emoticon-name="blue-star" alt="(étoile bleue)"/> et la pierre (rochers) <img class="emoticon emoticon-blue-star" data-emoji-id="1f311" data-emoji-shortname=":new_moon:" data-emoji-fallback="🌑" src="images/icons/emoticons/72/1f311.png" width="16" height="16" data-emoticon-name="blue-star" alt="(étoile bleue)"/>. Les ressource sont utilisés dans les crafts des <a href="98373.html" data-linked-resource-id="98373" data-linked-resource-version="2" data-linked-resource-type="page">bâtiments</a>.</p><h2 id="GameDesignDocument-Niveaudecohabitationetzoned’influence">Niveau de cohabitation et zone d’influence</h2><p>Le <strong>niveau de cohabitation</strong> ou <strong>l'entente</strong> correspond à la prosperité de la civilisation, on part du postulat que <strong>plus la civilisation est avancée, plus elle est à même de s’entendre avec son voisin. </strong></p><p>Plus le niveau de cohabitation est haut, plus la <strong>zone d’influence</strong> est étendue, jusqu'à recouvrir une majeure partie du plateau et à se croiser avec la zone adverse.</p><p /></div>
+</div>
+</div>
+<div class="columnLayout three-equal" data-layout="three-equal">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/98342/163900.jpg" data-image-src="attachments/98342/163900.jpg" data-height="2304" data-width="3262" data-unresolved-comment-count="0" data-linked-resource-id="163900" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="IMG_20210317_130604.jpg" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="98342" data-linked-resource-container-version="13" data-media-id="67dd428f-820b-46b7-8277-24d0c521326e" data-media-type="file"></span><p style="text-align: center;"><em>Début du jeu, les joueurs ont une petite zone d’influence</em></p></div>
+</div>
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/98342/163906.jpg" data-image-src="attachments/98342/163906.jpg" data-height="2304" data-width="2775" data-unresolved-comment-count="0" data-linked-resource-id="163906" data-linked-resource-version="2" data-linked-resource-type="attachment" data-linked-resource-default-alias="IMG_20210317_130645.jpg" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="98342" data-linked-resource-container-version="13" data-media-id="cc64759a-0215-4d46-86e8-92becc187a92" data-media-type="file"></span><p style="text-align: center;"><em>Situation de late game, les joueurs sont proches de la victoire</em></p></div>
+</div>
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/98342/33201.jpg" data-image-src="attachments/98342/33201.jpg" data-height="2304" data-width="2983" data-unresolved-comment-count="0" data-linked-resource-id="33201" data-linked-resource-version="2" data-linked-resource-type="attachment" data-linked-resource-default-alias="IMG_20210317_130625.jpg" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="98342" data-linked-resource-container-version="13" data-media-id="d79cb4b0-808f-43a5-b016-d2b978f356b4" data-media-type="file"></span><p style="text-align: center;"><em>Situation compliquée, l’un des joueurs s’est développé tandis que l’autre non, ils sont dans une impasse</em></p></div>
+</div>
+</div>
+<div class="columnLayout fixed-width" data-layout="fixed-width">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>Les joueurs ne peuvent construire et récolter des ressources que dans leur zone d’influence. Le croisement de leurs zones d’influence est la <strong>zone d’influence commune</strong>. Construire des bâtiments dans cette zone est bénéfique pour les deux populations.</p><p> </p><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/><col style="width: 61.82px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong>0%</strong></p></th><th class="confluenceTh"><p><strong>10%</strong></p></th><th class="confluenceTh"><p><strong>20%</strong></p></th><th class="confluenceTh"><p><strong>30%</strong></p></th><th class="confluenceTh"><p><strong>40%</strong></p></th><th class="confluenceTh"><p><strong>50%</strong></p></th><th class="confluenceTh"><p><strong>60%</strong></p></th><th class="confluenceTh"><p><strong>70%</strong></p></th><th class="confluenceTh"><p><strong>80%</strong></p></th><th class="confluenceTh"><p><strong>90%</strong></p></th><th class="confluenceTh"><p><strong>100%</strong></p></th></tr><tr><td data-highlight-colour="#ffbdad" colspan="4" class="confluenceTd"><p style="text-align: center;">Demandes militaires</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p /></td><td data-highlight-colour="#e3fcef" colspan="9" class="confluenceTd"><p style="text-align: center;">Demandes résidentielles</p></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td data-highlight-colour="#b3d4ff" colspan="5" class="confluenceTd"><p style="text-align: center;">Demandes culturelles</p></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td><td data-highlight-colour="#fff0b3" colspan="3" class="confluenceTd"><p style="text-align: center;"><strong>Demande merveille</strong></p></td></tr></tbody></table></div><p>Si les deux joueurs sont au <strong>dessus de 80%</strong>, ils peuvent construire <strong>la merveille</strong> et gagnent. Si ils sont en <strong>dessous de 30%</strong>, leurs peuples vont leur demander des <strong>bâtiments militaires</strong>, qui vont faire stagner la situation et attiser les conflits.</p><h2 id="GameDesignDocument-Bâtiments">Bâtiments</h2><p>Les bâtiments ont chacun un craft unique. En construisant le bâtiment que le peuple demande, la prospérité augmente drastiquement, au contraire le peuple est mécontent en cas de refus.</p><p><a href="98373.html" data-linked-resource-id="98373" data-linked-resource-version="2" data-linked-resource-type="page">Voir bâtiments</a>.</p><h1 id="GameDesignDocument-RationalGameDesign">Rational Game Design</h1><h2 id="GameDesignDocument-Mécaniques&amp;challenges">Mécaniques &amp; challenges</h2><ul><li><p>Construire/Détruire</p></li><li><p>Empêcher les catastrophes</p></li></ul><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 226.67px;"/><col style="width: 226.67px;"/><col style="width: 226.67px;"/></colgroup><tbody><tr><th data-highlight-colour="#c0b6f2" class="confluenceTh"><p style="text-align: center;"><strong>Objectif</strong></p></th><th data-highlight-colour="#c0b6f2" class="confluenceTh"><p style="text-align: center;"><strong>Mécaniques</strong></p></th><th data-highlight-colour="#c0b6f2" class="confluenceTh"><p style="text-align: center;"><strong>Challenges</strong></p></th></tr><tr><td data-highlight-colour="#eae6ff" colspan="3" class="confluenceTd"><p style="text-align: center;"><strong>Objectifs micro</strong></p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Répondre à une demande</p></td><td class="confluenceTd"><p style="text-align: center;">Construire/Détruire</p></td><td class="confluenceTd"><p style="text-align: center;">Timing, gestion, (coopération)</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Répondre à une demande mutuelle</p></td><td class="confluenceTd"><p style="text-align: center;">Construire/Détruire</p></td><td class="confluenceTd"><p style="text-align: center;">Timing, gestion, communication, coopération</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Empêcher une explosion de volcan</p></td><td class="confluenceTd"><p style="text-align: center;">Empêcher les catastrophes</p></td><td class="confluenceTd"><p style="text-align: center;">Timing, coopération</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Empêcher une pluie de météorites</p></td><td class="confluenceTd"><p style="text-align: center;">Empêcher les catastrophes</p></td><td class="confluenceTd"><p style="text-align: center;">Timing, précision</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Construire la merveille (micro)</p></td><td class="confluenceTd"><p style="text-align: center;">Construire/détruire</p></td><td class="confluenceTd"><p style="text-align: center;">(Timing), gestion, coopération</p></td></tr><tr><td data-highlight-colour="#eae6ff" colspan="3" class="confluenceTd"><p style="text-align: center;"><strong>Objectifs moyens</strong></p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Faire se recontrer les zones d’influence</p></td><td class="confluenceTd"><p style="text-align: center;">Construire/Détruire</p></td><td class="confluenceTd"><p style="text-align: center;">Gestion</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Faire grandir la zone d’influence commune</p></td><td class="confluenceTd"><p style="text-align: center;">Construire/Détruire</p></td><td class="confluenceTd"><p style="text-align: center;">Gestion, coopération</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Stabiliser la zone en décroissante</p></td><td class="confluenceTd"><p style="text-align: center;">Construire/Détruire</p><p style="text-align: center;">Empêcher les catastrophes</p></td><td class="confluenceTd"><p style="text-align: center;">Gestion, timing</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Corriger une situation d’unbalance</p></td><td class="confluenceTd"><p style="text-align: center;">Contruire/Détruire</p></td><td class="confluenceTd"><p style="text-align: center;">Gestion, coopération</p></td></tr><tr><td data-highlight-colour="#eae6ff" colspan="3" class="confluenceTd"><p style="text-align: center;"><strong>Objectif macro</strong></p></td></tr><tr><td data-highlight-colour="#ffffff" class="confluenceTd"><p style="text-align: center;">Arriver à 80% de cohabitation et construire la merveille</p></td><td data-highlight-colour="#ffffff" class="confluenceTd"><p style="text-align: center;">Construire/Détruire</p><p style="text-align: center;">Empêcher les catastrophes</p></td><td data-highlight-colour="#ffffff" class="confluenceTd"><p style="text-align: center;">Gestion, coopération</p></td></tr></tbody></table></div><h2 id="GameDesignDocument-Paramètresatomiques">Paramètres atomiques</h2><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 113.33px;"/><col style="width: 113.33px;"/><col style="width: 113.33px;"/><col style="width: 113.33px;"/><col style="width: 113.33px;"/><col style="width: 113.33px;"/></colgroup><tbody><tr><th data-highlight-colour="#deebff" class="confluenceTh"><p style="text-align: center;"><strong>Construire/Détruire</strong></p></th><th class="confluenceTh"><p style="text-align: center;">Pas de défi</p></th><th class="confluenceTh"><p style="text-align: center;">Facile</p></th><th class="confluenceTh"><p style="text-align: center;">Moyen</p></th><th class="confluenceTh"><p style="text-align: center;">Difficile</p></th><th class="confluenceTh"><p style="text-align: center;">Impossible</p></th></tr><tr><td data-highlight-colour="#f4f5f7" class="confluenceTd"><p style="text-align: center;">Durée de la demande</p></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td></tr><tr><td data-highlight-colour="#f4f5f7" class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td></tr><tr><td data-highlight-colour="#f4f5f7" class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td></tr><tr><td data-highlight-colour="#f4f5f7" class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td><td class="confluenceTd"><p style="text-align: center;" /></td></tr></tbody></table></div></div>
+</div>
+</div>
+</div>
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/163845.png">image-20210317-103546.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/163890.jpg">IMG_20210317_113618.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/262347.jpg">IMG_20210317_130429.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/262355.jpg">IMG_20210317_130511.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/33193.jpg">IMG_20210317_130540.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/163900.jpg">IMG_20210317_130604.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/262361.jpg">IMG_20210317_130625.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/33207.jpg">IMG_20210317_130645.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/163906.jpg">IMG_20210317_130645.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/33201.jpg">IMG_20210317_130625.jpg</a> (image/jpeg)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/9961899.png">Sans nom-1.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/9994483.png">image-20210323-100644.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/52690992.png">Diagramme entités Divunity.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/98342/52592685.png">Diagramme entités Divunity(1).png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on sept. 21, 2021 20:54</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

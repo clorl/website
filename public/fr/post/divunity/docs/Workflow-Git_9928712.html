@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Divunity : Workflow Git</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Divunity</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Accueil_33018.html">Accueil</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Documentation-technique_9928705.html">Documentation technique</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Divunity : Workflow Git
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Clément Topy</span>, last modified on mars 22, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <h1 id="WorkflowGit-Lesbases">Les bases</h1><p>Pour ceux qui voudraient un rappel des bases de Git, <a href="Les-bases-de-Git_9994243.html" data-linked-resource-id="9994243" data-linked-resource-version="1" data-linked-resource-type="page">allez voir ici</a>.</p><p>Une règle importante : <strong>On ne travaille jamais sur le master</strong></p><h1 id="WorkflowGit-Typesdebranche">Types de branche</h1><p>Lorsqu’on veut contribuer au dépôt, on crée systématiquement une branche sur laquelle travailler. <strong>Une branche = une utilité </strong>(fonctionnalité, bug fix, ajout de ressources…)</p><p>Les noms de branche sont en <strong>kebab-case</strong> (minuscule sans accents avec des tirets).</p><p>On a 5 types de branches : </p><ul><li><p>Les branches de <strong>fonctionnalité, </strong>pour développer les features principales du jeu. Une branche de fonctionnalité correspond en général à <strong>un ticket Jira</strong>. <br/>On nomme ces branches : <code>feat/&lt;ma-feature&gt;</code> comme par exemple <strong>feat/controller-vr</strong></p></li><li><p>Les branches de <strong>bug fix</strong>, pour euh… fixer des bugs.<br/>On les nomme : <code>fix/&lt;mon-fix&gt;</code>, le nom de la branche peut-être une description du bug ou un numéro de <strong>ticket de bug Jira</strong>.</p></li><li><p>Les branches <strong>d’intégration</strong>, pour ajouter et intégrer des ressources au projet (modèles, anims, UI…)<br/>On les nomme : <code>int/&lt;mon-integration&gt;</code> par exemple, <strong>int/modele-peuple-1</strong></p></li><li><p>Les branches de <strong>release</strong> qui servent de <strong>tronc</strong> pour préparer les release (mvp/alpha/beta/final). On y fait des bug fix et de l’intégration avant de release une version.<br/>On les nomme : <code>release/&lt;numero-de-version&gt;</code></p></li><li><p>Les branches <strong>autres</strong> pour tout le reste. Vous pouvez les nommer comme vous voulez.</p></li></ul><p /><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 340.0px;"/><col style="width: 340.0px;"/></colgroup><tbody><tr><td data-highlight-colour="#f4f5f7" class="confluenceTd"><p style="text-align: center;"><strong>Type de branche</strong></p></td><td data-highlight-colour="#f4f5f7" class="confluenceTd"><p style="text-align: center;"><strong>Nomenclature</strong></p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Fonctionnalité</p></td><td class="confluenceTd"><p style="text-align: center;"><code>feat/&lt;ma-feature&gt;</code></p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Bug fix</p></td><td class="confluenceTd"><p style="text-align: center;"><code>fix/&lt;mon-fix&gt;</code></p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Intégration</p></td><td class="confluenceTd"><p style="text-align: center;"><code>int/&lt;mon-asset-integre&gt;</code></p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Release</p></td><td class="confluenceTd"><p style="text-align: center;"><code>release/&lt;version&gt;</code></p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">Autres</p></td><td class="confluenceTd"><p style="text-align: center;"><code>comme-tu-veux-poto</code></p></td></tr></tbody></table></div><span class="confluence-embedded-file-wrapper image-right-wrap-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-wrap-right" width="340" loading="lazy" src="attachments/9928712/9994280.png?width=340" data-image-src="attachments/9928712/9994280.png" data-height="300" data-width="424" data-unresolved-comment-count="0" data-linked-resource-id="9994280" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-101749.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9928712" data-linked-resource-container-version="3" data-media-id="2e0dd926-c1db-412e-ba90-62e780823e36" data-media-type="file"></span><p>Pourquoi cette nomenclature ? D’abord, ça nous permet de mieux <strong>identifier les branches</strong>, mais aussi dans la plupart des GUI, les noms de branches construits comme des <strong>chemins </strong><code>chemin/vers-truc</code>  <code>chemin/vers-machin</code> s’affichent sous forme de “dossiers” donc c’est plus agréable pour les trier.</p><p /><p /><p /><h1 id="WorkflowGit-Leworkflow">Le workflow</h1><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/9928712/9928757.jpg" data-image-src="attachments/9928712/9928757.jpg" data-height="231" data-width="1160" data-unresolved-comment-count="0" data-linked-resource-id="9928757" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Sans nom-2.jpg" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="9928712" data-linked-resource-container-version="3" data-media-id="de42385f-9162-4da7-be49-83fdd5a94ae8" data-media-type="file"></span><p>Voici le workflow que l’on va globalement suivre. Une branche = une utilité, on travaille dessus. On peut <strong>push </strong>cette branche si nécessaire, mais c’est mieux de la garder locale. Lorsque la feature fonctionne, on <strong>merge</strong> puis <strong>push</strong> le master.</p><p>Un <strong>pipeline</strong> Gitlab va ensuite tenter de build le jeu. Si le pipeline échoue, on peut retourner travailler sur la branche d’origine pour régler le soucis puis refaire un <strong>merge/push</strong> pour re-tester le pipeline.</p>
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9928712/9994280.png">image-20210322-101749.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9928712/9928757.jpg">Sans nom-2.jpg</a> (image/jpeg)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on sept. 21, 2021 20:54</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>
