@@ -3,7 +3,7 @@ title = "Comment estimer une feature ?"
 description = "Voici ma méthode pour créer des estimations 'basses résolutions' de features qui peuvent être larges, en début de production. Cela permet d'estimer avec une part de certitude une deadline que l'on peut se fixer."
 date = 2024-03-01T23:36:21+01:00
 categories = "Articles"
-draft = false
+draft = true
 +++
 
 J'ai utilisé cette méthode plusieurs fois lors d'un de mes précédents postes pour estimer des *features* en début de production. Il arrivait régulièrement que la direction demande des estimations en tout début de *prod*, avant même que quoi que ce soit ne soit *designé*. Nous avions une direction générale pour une *feature*, mais rien de plus. Comment donner un ordre de grandeur des délais à ce stade si précoce?
