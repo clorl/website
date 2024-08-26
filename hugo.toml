@@ -1,22 +1,22 @@
 baseURL = 'https://clemorl.fr'
-languageCode = 'fr-fr'
 title = 'Clément Orlandini'
 theme = 'stack'
-defaultContentLanguage = "en"
+defaultContentLanguage = 'en'
 
-  [languages.fr]
-    disabled = false
-    languageCode = 'fr-FR'
-    languageDirection = 'ltr'
-    languageName = 'Français'
-    weight = 1
-    [languages.fr.params]
-      subtitle = 'Game Designer, scénariste et programmeur'
-  [languages.en]
-    disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    weight = 2
-    [languages.en.params]
-      subtitle = 'Game Designer, Writer and Developer'
+[languages.fr]
+disabled = false
+languageCode = 'fr-FR'
+languageDirection = 'ltr'
+languageName = 'Français'
+weight = 2
+[languages.fr.params]
+subtitle = 'Game Designer, scénariste et programmeur'
+
+[languages.en]
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+weight = 1
+[languages.en.params]
+subtitle = 'Game Designer, Writer and Developer'

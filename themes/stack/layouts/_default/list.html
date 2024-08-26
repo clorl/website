@@ -75,9 +75,9 @@
     
 
     {{/* List only pages that are not a subsection */}}
-    {{ $paginator := .Paginate $pages }}
+    {{ $pager := .Paginate $pages }}
     <section class="article-list">
-        {{ range $paginator.Pages }}
+        {{ range $pager.Pages }}
             {{ partial "article-list/default" . }}
         {{ end }}
     </section>
