@@ -1,0 +1,23 @@
+/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+.home-content {
+  color: var(--body-text-color);
+  h1 {
+    font-weight: 900;
+    font-size: 5rem;
+  }
+}
+
+.article-content div.video-wrapper {
+  border-radius: 8px;
+  width: 100%;
+  margin: auto;
+}
+
+.gallery-image {
+  border-radius: 8px !important;
+}
+
+pre {
+  background-color: unset !important;
+}

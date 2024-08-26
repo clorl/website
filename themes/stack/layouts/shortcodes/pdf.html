@@ -1,0 +1,4 @@
+{{- $path := .Get "path" | default (.Get 0) -}}
+  <div class="document-wrapper">
+    <embed src="{{ $path }}" width="600" height="700" type="application/pdf"/>
+  </div>

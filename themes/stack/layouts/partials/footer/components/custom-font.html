@@ -1,0 +1,16 @@
+<script>
+    (function () {
+        const fonts = [
+          "https://fonts.cdnfonts.com/css/satoshi",
+          "https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+        ]
+
+        for (let font of fonts) {
+          const customFont = document.createElement('link');
+          customFont.href = font;
+          customFont.type = "text/css";
+          customFont.rel = "stylesheet";
+          document.head.appendChild(customFont);
+        }
+    }());
+</script>
