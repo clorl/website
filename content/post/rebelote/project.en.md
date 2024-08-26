@@ -10,6 +10,7 @@ details: A crazy racing game in the world of Occitanie's libre radio stations
 categories:
     - games
     - featured
+draft: true
 ---
 
 

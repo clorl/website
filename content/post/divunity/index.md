@@ -10,7 +10,7 @@ readingTime = true
 categories = ["Projects", "Portfolio"]
 +++
 
-Divunity is quite the unique experience, and honestly one of the projects I'm most proud of. 
+Divunity is quite the unique experience. 
 It's a VR god game where two players have to cooperate to make their people live together despite hating each other. 
 The focus is both on the communication/strategy aspect and the inherent pleasure to play with a VR toy.
 
@@ -39,10 +39,11 @@ We then presented this game to the public, and this massive amount of new player
 
 | Credit                | Role                              |
 |:---------------------:|:---------------------------------:|
-| [Pierre Aceituno]()   | Producer                          |
-| [Solène Pobelle]()    | Character and environment artist  |
-| [Noé Simon]()         | UX Designer, User Researcher      |
-| [Pamphile Saltel]()   | Programmer                        |
+| [Pierre Aceituno](https://www.linkedin.com/in/pierre-aceituno-a5b8b2154/)   | Producer                          |
+| Clément Orlandini | Game Designer, programmeur|
+| [Solène Pobelle](https://www.linkedin.com/in/solene-pobelle/)    | Character and environment artist  |
+| [Noé Simon](https://www.linkedin.com/in/noe-simon/)         | UX Designer, User Researcher      |
+| [Pamphile Saltel](https://www.linkedin.com/in/pamphile-saltel/)   | Programmer                        |
 
 The original idea was imagined and playtested by Marie Abrino, Sohel Bourgeau, Hippolyte Follenfant, Morgan Geniez and myself.
 

@@ -2,6 +2,7 @@ baseURL = 'https://clemorl.fr'
 languageCode = 'fr-fr'
 title = 'Clément Orlandini'
 theme = 'stack'
+defaultContentLanguage = "en"
 
   [languages.fr]
     disabled = false

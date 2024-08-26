@@ -1,7 +1,7 @@
 +++
 title = 'Divunity'
 description = "Le tout premier god-game VR coopératif. Une expérience unique où les joueurs doivent faire cohabiter leur deux peuples."
-date = 2024-01-24T19:43:55+01:00
+date = 2021-05-24T19:43:55+01:00
 draft = false
 image = "thumbnail.png"
 toc = true
@@ -10,7 +10,7 @@ readingTime = true
 categories = ["Projets", "Portfolio"]
 +++
 
-Divunity est une expérience unique, et honnêtement, l'un des projets dont je suis le plus fier. 
+Divunity est une expérience unique. 
 C'est un "god game" en VR dans lequel deux joueurs doivent coopérer pour faire cohabiter leurs peuples ensemble malgré la haine qu'ils éprouvent l'un pour l'autre. 
 L'accent est mis à la fois sur l'aspect communication/stratégie et sur le plaisir de jouer avec un jouet VR.
 
@@ -39,10 +39,11 @@ Nous avons ensuite présenté ce jeu au public, et ce grand nombre de nouveaux j
 
 | Credit                | Role                              |
 |:---------------------:|:---------------------------------:|
-| [Pierre Aceituno]()   | Producer                          |
-| [Solène Pobelle]()    | Character & environment artist    |
-| [Noé Simon]()         | UX Designer, User Researcher      |
-| [Pamphile Saltel]()   | Programmeur                       |
+| [Pierre Aceituno](https://www.linkedin.com/in/pierre-aceituno-a5b8b2154/)   | Producer                          |
+| Clément Orlandini | Game Designer, programmeur|
+| [Solène Pobelle](https://www.linkedin.com/in/solene-pobelle/)    | Character & environment artist    |
+| [Noé Simon](https://www.linkedin.com/in/noe-simon/)         | UX Designer, User Researcher      |
+| [Pamphile Saltel](https://www.linkedin.com/in/pamphile-saltel/)   | Programmeur                       |
 
 L'idée originale a été imaginée et testée par Marie Abrino, Sohel Bourgeau, Hippolyte Follenfant, Morgan Geniez et moi-même.
 
