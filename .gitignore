@@ -1,5 +1,6 @@
 .env
 ./deploy_sshkey
+./content/.obsidian
 
 /public/
 /resources/_gen/

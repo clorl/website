@@ -1,0 +1,40 @@
+#!/bin/bash
+
+CWD="$(pwd)"
+ENV_PATH="$CWD/.env"
+ARCHIVE_LIMIT=10
+
+# Load environment variables from .env file
+if [ -f $ENV_PATH ]; then
+  export $(grep -v '^#' $ENV_PATH | xargs)
+else
+  echo ".env file not found. Exiting."
+  exit 1
+fi
+
+# Get the latest commit message
+COMMIT_MSG=$(git log -1 --pretty=%B)
+
+# Check if the commit message contains the '#publish' tag
+if [[ $COMMIT_MSG == *"#publish"* ]]; then
+  echo "Publishing site as commit contains #publish tag."
+
+  # Build the Hugo site
+  hugo
+
+  # Archive the current deployed version
+  ARCHIVE_COUNT=$(ls -1 $REMOTE_ARCHIVE_PATH | wc -l)
+  if [ "$ARCHIVE_COUNT" -gt "$LIMIT" ]; then
+    echo "Warning: There are $ARCHIVE_COUNT archives in the directory. Consider cleaning up."
+  fi
+
+  TIMESTAMP=$(date +"%Y%m%d%H%M%S")
+  ssh -i $SSH_KEY $SSH_USER@$SSH_HOST "mv -r $REMOTE_SITE_PATH $REMOTE_ARCHIVE_PATH/clemorl.fr_$TIMESTAMP"
+
+  # Deploy the new version
+  rsync -avz -e "ssh -i $SSH_KEY" --delete public/ $SSH_USER@$SSH_HOST:$REMOTE_SITE_PATH
+
+  echo "Deployment completed."
+else
+  echo "No #publish tag found in the commit message. Skipping deployment."
+fi
