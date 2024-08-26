@@ -1,4 +1,6 @@
-# Generated files by hugo
+.env
+./deploy_sshkey
+
 /public/
 /resources/_gen/
 /assets/jsconfig.json
