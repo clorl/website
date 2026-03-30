@@ -1,0 +1,32 @@
+[[experience]]
+  role = "Game Designer"
+  company = "Shiro Games"
+  company_link = "https://shirogames.com/"
+  period = "Jan 2025 - Present"
+  country = "France"
+  description = "Game Designer on Wartales DLCs: The Beast Hunt, The Fief, The Curse of Rigel and Fires in the Capital" # Optional detailed description
+  responsibilities = [
+    "Created unique systems fitting tight requirements",
+    "Designed and balanced content, skills, factions and bossfights",
+    "Gathered player feedbacks in user-facing beta",
+    "Developed design tooling to assist my process",
+  ]
+  # technologies = ["Go", "Docker", "Kubernetes", "React"]
+
+[[experience]]
+  role = "Game Designer"
+  company = "Playwing"
+  company_link = "https://www.playwing.com/"
+  period = "Oct 2022 - Jan 2024"
+  country = "France"
+  description = "Live Game Designer on PVP multiplayer game Century: Age of Ashes"
+  responsibilities = [
+  	"Designed Outbreak PVE game mode, Rimeblood class, Artifact game mode and Colosseum game modes",
+  	"Pitched entire gameplay systems for long-term game changes",
+  	"Brought improvements to production planning, communication with developers",
+  	"Lead communication with remote development team and production planning",
+  	"Closely worked with data analysis team on each update",
+  	"Worked on polishing FTUE under strict deadlines",
+  	"Helped improve internal processes"
+  ]
+  # technologies = ["Python", "Django", "PostgreSQL"]

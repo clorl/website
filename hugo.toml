@@ -1,22 +1,31 @@
 baseURL = 'https://clemorl.fr'
 title = 'Clément Orlandini'
-theme = 'stack'
+theme = 'hugo-noir'
 defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true 
 
-[languages.fr]
-disabled = false
-languageCode = 'fr-FR'
-languageDirection = 'ltr'
-languageName = 'Français'
-weight = 2
-[languages.fr.params]
-subtitle = 'Game Designer, scénariste et programmeur'
+[params]
+name = "Clément Orlandini"
+location = "France"
+description = """
+Articles, creative work, random experiments, personal and professional work, of Clément Orlandini (aka Topy, aka me).
+I'm a french game designer, programmer and storyteller. While my main work involves systems design and crafting content for game studios,
+I'm a tech nerd and hobbyist programmer and I strive to invent new ways to make games as well as create ambitious, intricate experiences for 
+people to enjoy.
+"""
+profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
+# Social links
+github = "https://github.com/clorl"
+linkedin = "https://linkedin.com/in/clement-orlandini"
+email = "clement.orlandini@example.com"
 
 [languages.en]
-disabled = false
-languageCode = 'en-US'
-languageDirection = 'ltr'
-languageName = 'English'
+languageName = "English"
+title = "Clément Orlandini - Game Designer"
 weight = 1
-[languages.en.params]
-subtitle = 'Game Designer, Writer and Developer'
+contentDir = "content/en"
+[languages.fr]
+languageName = "Français"
+title = "Clément Orlandini - Game Designer"
+weight = 3
+contentDir = "content/fr"

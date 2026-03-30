@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Divunity : Évènements aléatoires</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Divunity</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Accueil_33018.html">Accueil</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Game-Design-Document_98342.html">Game Design Document</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Divunity : Évènements aléatoires
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Clément Topy</span>, last modified on mars 22, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p>En général, il n’est pas possible que 2 catastrophes naturelles se déclenchent au même moment. Si deux catastrophes vont se déclencher en même temps, celle avec la plus haute priorité prime.</p><p><strong>Tsunami &gt; Volcan &gt; Météorite</strong></p><p>Une bataille peut toujours éclater.</p><p>Quand je dis “chaque minute, X a Y probabilité d’arriver”, il ne faut pas checker chaque minute avec un timer, c’est une valeur à normaliser à la <strong>frame</strong>.</p><h1 id="id-Évènementsaléatoires-Volcan">Volcan</h1><p>Si un volcan est sur la map, il a une probabilité de <strong>1/10</strong> d’exploser <strong>chaque minute</strong>.</p><p>Quand un volcan va exploser, la terre tremble et de la fumée sort de sa cheminée. Les joueurs doivent boucher le volcan avec <strong>deux tapettes</strong> avant que celui-ci n’explose (au bout de <strong>5 secondes</strong>).</p><p>Si les joueurs bouchent le volcan jusqu’au bout, la terre cesse de trembler et le volcan n’explose pas.</p><p>S’ils commencent à boucher le volcan puis arrêtent, le volcan explose instantanément.</p><p>Lorsque le volcan explose, un panache de cendre est projeté dans l’air et une gigantesque explosion détruit les bâtiments dans un rayon autour du volcan. Au cours de la partie, la <strong>zone d’effet du volcan</strong> augmente avec le temps.</p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/9961599/9961620.png" data-image-src="attachments/9961599/9961620.png" data-height="479" data-width="871" data-unresolved-comment-count="0" data-linked-resource-id="9961620" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-150503.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961599" data-linked-resource-container-version="5" data-media-id="5f9f661e-7f91-4e1e-a195-d9feae0bb550" data-media-type="file"></span><p style="text-align: center;"><em>Rayon d’effet du volcan en fonction du temps (par minutes)</em></p><p style="text-align: center;"><code>y = (1/3.5) * x + 1</code></p><p>Juste après l’explosion d’un volcan, la probabilité qu’il explose à nouveau subit un multiplicateur décrit par cette fonction.</p><p>Juste après l’explosion, le volcan n’a aucune chance d’exploser à nouveau, la probabilité d’une nouvelle explosion remonte doucement avec le temps. </p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/9961599/9928871.png" data-image-src="attachments/9961599/9928871.png" data-height="446" data-width="807" data-unresolved-comment-count="0" data-linked-resource-id="9928871" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-151658.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961599" data-linked-resource-container-version="5" data-media-id="7dc96006-b7f2-418f-a7d6-98217c4e85b7" data-media-type="file"></span><p style="text-align: center;">Multiplicateur de probabilité d’explosion, après une explosion.</p><p style="text-align: center;"><code>y = 0.7 * ln(2x+1)</code></p><h1 id="id-Évènementsaléatoires-Batailles">Batailles</h1><p>En fonction du niveau d’entente des deux civilisations, des batailles ponctuelles peuvent se déclencher. </p><p>Lorsqu’une bataille se déclenche, un panache de fumée et d’objets indique le combat. Un joueur doit entreposer une tapette au milieu de la bataille : la fumée disparaitra, montrant les participants à la bataille bloqués des deux côtés.</p><p>Après quelques secondes, les deux groupes se séparent, le joueur peut retirer sa main.</p><p>Si une bataille n’est pas stoppée au bout de 5 secondes par un des joueurs, elle <strong>dégénère : </strong>de plus en plus de villageois rejoignent la bataille, elle grossit jusqu'à prendre la totalité du terrain, puis disparait, montrant tous les bâtiments détruits (défaite).</p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/9961599/10027181.png" data-image-src="attachments/9961599/10027181.png" data-height="945" data-width="1553" data-unresolved-comment-count="0" data-linked-resource-id="10027181" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-145311.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961599" data-linked-resource-container-version="5" data-media-id="28278543-d0a1-41f1-8cc7-4db5594be218" data-media-type="file"></span><p>La probabilité qu’une bataille éclate (en %) est décrite par cette fonction.</p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/9961599/9961640.png" data-image-src="attachments/9961599/9961640.png" data-height="832" data-width="1405" data-unresolved-comment-count="0" data-linked-resource-id="9961640" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-160446.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961599" data-linked-resource-container-version="5" data-media-id="0bf404db-02ec-439e-ac05-6a6f9f9d4d7b" data-media-type="file"></span><p style="text-align: center;"><em>En x,y : Le niveau de cohabitation de chaque civilisation</em></p><p style="text-align: center;"><em>En z : La probabilité qu’une bataille éclate</em></p><p style="text-align: center;"><code>z = -0.9 * (sqrt(10x) + sqrt(10y)) + 50</code></p><h1 id="id-Évènementsaléatoires-Pluiedemétéorites">Pluie de météorites</h1><p>Chaque minute, il y a une probabilité de <strong>1/10 </strong>qu’il y ait une pluie de météorites. Le nombre de météorites par pluie suit la loi normale suivante.</p><p>Le joueur doit repousser les météorites en les frappant avec la tapette. Il leur donne une impulsion dans la direction de la frappe. Les météorites se désintègrent si elles sortent du plateau.</p><p>Si une météorite touche le sol, elle détruit les ressources et bâtiments dans un certain rayon.</p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/9961599/9961652.png" data-image-src="attachments/9961599/9961652.png" data-height="464" data-width="1289" data-unresolved-comment-count="0" data-linked-resource-id="9961652" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-162106.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961599" data-linked-resource-container-version="5" data-media-id="5d78fe67-d0de-4009-b794-98257b92196f" data-media-type="file"></span><p style="text-align: center;"><em>Probabilité d’un nombre de météorites pour une pluie</em></p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/9961599/9961660.png" data-image-src="attachments/9961599/9961660.png" data-height="100" data-width="318" data-unresolved-comment-count="0" data-linked-resource-id="9961660" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-162229.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961599" data-linked-resource-container-version="5" data-media-id="59c3d724-bf68-4f99-8e41-79339d34d1f3" data-media-type="file"></span><p />
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9928852.png">image-20210322-145004.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/10027181.png">image-20210322-145311.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9994358.png">image-20210322-145545.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9961620.png">image-20210322-150503.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9928871.png">image-20210322-151658.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9961640.png">image-20210322-160446.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9961652.png">image-20210322-162106.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9994410.png">image-20210322-162144.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961599/9961660.png">image-20210322-162229.png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on sept. 21, 2021 20:54</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Divunity : Outils</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Divunity</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Accueil_33018.html">Accueil</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Game-Design-Document_98342.html">Game Design Document</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Divunity : Outils
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Clément Topy</span>, last modified on mars 23, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <h2 id="Outils-Controller">Controller</h2><p><strong>Gâchette :</strong> Utiliser l’outil (voir ci-dessous)</p><p><strong>Appui trackpad </strong>: Lâcher/prendre un outil</p><h2 id="Outils-Résumédesoutils">Résumé des outils</h2><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 138.0px;"/><col style="width: 368.0px;"/><col style="width: 253.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong>Outil</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th><th class="confluenceTh"><p><strong>Interaction gâchette</strong></p></th></tr><tr><td class="confluenceTd"><p>Pince</p></td><td class="confluenceTd"><p>Permet d’attraper les ressources, bâtiments et personnages</p></td><td class="confluenceTd"><p>Refermer la pince (analogique)</p></td></tr><tr><td class="confluenceTd"><p>Marteau</p></td><td class="confluenceTd"><p>Détruire les bâtiments.</p></td><td class="confluenceTd"><p>Faire tourner le marteau (analogique)</p></td></tr><tr><td class="confluenceTd"><p>Tapette à catastrophes</p></td><td class="confluenceTd"><p>Gérer les évènements aléatoires. La tapette sert à repousser les météores, boucher les volcans, arrêter les tsunamis et séparer les batailles.</p></td><td class="confluenceTd"><p>Étendre/rétracter la tapette (telescopique)</p></td></tr><tr><td class="confluenceTd"><p>Selfie stick</p></td><td class="confluenceTd"><p>Prendre un screenshot du jeu</p></td><td class="confluenceTd"><p>Prendre une photo</p></td></tr></tbody></table></div><h2 id="Outils-Comportementdesoutils">Comportement des outils</h2><span class="confluence-embedded-file-wrapper image-right-wrap-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-wrap-right" width="224" loading="lazy" src="attachments/9961528/10027085.png?width=224" data-image-src="attachments/9961528/10027085.png" data-height="2304" data-width="2057" data-unresolved-comment-count="0" data-linked-resource-id="10027085" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-123317.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961528" data-linked-resource-container-version="3" data-media-id="84f80e0e-8441-4dc9-8af1-0f40292bc7fa" data-media-type="file"></span><p>L’outil par défaut de l’utilisateur est un controller avec un emplacement vide. Lorsqu’il approche ce bâton du manche d’un outil et appuie sur le bouton, l’outil “<strong>snap</strong>” et remplace le bâton. Lorsque l’utilisateur a un outil et appui sur le bouton, celui-ci se <strong>dissolve </strong>et réapparait sur le rack.</p><p>Lorsqu’un outil intersecte un objet avec lequel il n’interagit pas, un outil passe dans l'état <strong>fantomatique</strong>, un état purement visuel qui rend l’objet translucide.</p><p>Si un habitant se retrouve “dans” un objet en état fantomatique, il prend une animation de peur tétanique.</p><h2 id="Outils-Détaildesoutils">Détail des outils</h2><h3 id="Outils-Pince">Pince</h3><p>La pince permet d’attraper des objets si ceux-ci se trouvent entre les deux branches de la pince. Ceux-ci s’adaptent au collider de l’objet attrapé (ils ne les traversent pas).</p><h3 id="Outils-Marteau">Marteau</h3><span class="confluence-embedded-file-wrapper image-right-wrap-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-wrap-right" width="217" loading="lazy" src="attachments/9961528/10027096.png?width=217" data-image-src="attachments/9961528/10027096.png" data-height="3136" data-width="2095" data-unresolved-comment-count="0" data-linked-resource-id="10027096" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-124557.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961528" data-linked-resource-container-version="3" data-media-id="8ea12211-f7dc-413a-bb23-bba2f43313a5" data-media-type="file"></span><p>Lorsque l’utilisateur frappe un bâtiment avec le marteau, celui-ci disparait dans un “<strong>pouf</strong>” de fumée ainsi que des <strong>particules de débris</strong> ayant la même vélocité que le marteau au moment de l’impact.</p><p>La gâchette permet de faire pivoter le marteau pour charger une frappe. Le joueur peut très bien juste frapper avec le marteau, où utiliser la frappe avec la gâchette <em>(accessibilité et game feel)</em>.</p><p /><p /><p /><p /><h3 id="Outils-Tapette">Tapette</h3><span class="confluence-embedded-file-wrapper image-right-wrap-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-wrap-right" width="217" loading="lazy" src="attachments/9961528/9994313.png?width=217" data-image-src="attachments/9961528/9994313.png" data-height="2810" data-width="2304" data-unresolved-comment-count="0" data-linked-resource-id="9994313" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210322-125114.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961528" data-linked-resource-container-version="3" data-media-id="4dea1329-0f0c-434a-99e0-1bce54519bc7" data-media-type="file"></span><p>La tapette à catastrophes sert à gérer tous les évènements aléatoires. Elle est télescopique pour un meilleur accès aux évènements les plus loins.</p><h3 id="Outils-Selfiestick">Selfie stick</h3><p>Le selfie stick a un genre de smartphone au bout, permettant de prendre des screenshots. Il est légèrement incliné pour une meilleure ergonomie. Lorsque l’on clique, un flash se fait entendre et la capture est sauvegardée automatiquement dans les fichiers de l’utilisateur.</p><p /><h1 id="Outils-L&#39;ÉtagèreCosmique">L'Étagère Cosmique</h1><p>L'<strong>étagère cosmique</strong> est le premier lieu commun des deux joueurs. Elle leur sert à crafter des bâtiments, à les stocker et à se les échanger.</p><p>Lorsque l’on met des ressources dans l’<strong>entonnoir </strong>les compteurs de ressources sur le côté de l'étagère changent (style <a class="external-link" href="https://upload.wikimedia.org/wikipedia/commons/4/47/Fallblattanzeigetafel_ausschnitt_ffm_hbf.jpg" rel="nofollow">panneau de gare</a> ou <a class="external-link" href="https://www.youtube.com/watch?v=2BIx2x-Q2fE" rel="nofollow">machine à calculer</a>). Si le joueur actionne la manivelle, l'étagère tremble et fait de la fumée pendant 3 secondes, puis un <strong>“ding”</strong> retentit. Le joueur peut ouvrir la trappe pour récupérer le résultat de son craft. La trappe se manipule avec la <strong>pince</strong>.</p><p>Une liste de craft serait affichée sur le côté de l'étagère ou au bord de la zone de jeu, à l’aide de symboles <span class="status-macro aui-lozenge">&Agrave; CONFIRMER</span> </p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-center" width="566" loading="lazy" src="attachments/9961528/9961713.png?width=566" data-image-src="attachments/9961528/9961713.png" data-height="2304" data-width="3317" data-unresolved-comment-count="0" data-linked-resource-id="9961713" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210323-092233.png" data-base-url="https://peacewar.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="9961528" data-linked-resource-container-version="3" data-media-id="06ffd616-8d2f-495d-9809-1d88d8589083" data-media-type="file"></span><p />
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961528/10027085.png">image-20210322-123317.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961528/9928813.png">image-20210322-124406.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961528/10027096.png">image-20210322-124557.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961528/9994313.png">image-20210322-125114.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/9961528/9961713.png">image-20210323-092233.png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on sept. 21, 2021 20:54</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

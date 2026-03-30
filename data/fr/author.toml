@@ -1,0 +1,5 @@
+[author]
+  name = "Clément"
+  location = "France"
+  description = "Description ..."
+  profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
